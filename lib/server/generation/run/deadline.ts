@@ -17,7 +17,7 @@ export const STEP_DEADLINES_MS = {
   outline: 300_000,
   agentProfiles: 120_000,
   /** Per attempt. */
-  sceneContent: 300_000,
+  sceneContent: 900_000,
   /** Per attempt. */
   sceneActions: 60_000,
   /** Per clip attempt (POST /api/generate/tts). */
