@@ -299,6 +299,7 @@ const THINKING_CAPABILITIES: Record<string, ThinkingCapability> = {
   ),
 
   [getModelMetadataKey('anthropic', 'claude-fable-5')]: anthropicFable5Effort,
+  [getModelMetadataKey('anthropic', 'claude-opus-5-5')]: anthropicFable5Effort,
   [getModelMetadataKey('anthropic', 'claude-opus-5')]: anthropicClaude5Effort,
   [getModelMetadataKey('anthropic', 'claude-sonnet-5')]: anthropicClaude5Effort,
   [getModelMetadataKey('anthropic', 'claude-opus-4-8')]: anthropicOpus47Effort,

@@ -305,6 +305,22 @@ export const PROVIDERS: Record<ProviderId, ProviderConfig> = {
         },
       },
       {
+        id: 'claude-opus-5-5',
+        name: 'Claude Opus 5.5',
+        contextWindow: 1000000,
+        outputWindow: 128000,
+        capabilities: {
+          streaming: true,
+          tools: true,
+          vision: true,
+          thinking: {
+            toggleable: false,
+            budgetAdjustable: false,
+            defaultEnabled: true,
+          },
+        },
+      },
+      {
         id: 'claude-fable-5',
         name: 'Claude Fable 5',
         contextWindow: 1000000,
